@@ -40,7 +40,7 @@ namespace _02_commands_framework
 
                 // Tokens should be considered secret data and never hard-coded.
                 // We can read from the environment variable to avoid hard coding.
-                await client.LoginAsync(TokenType.Bot, "OTE4NTIyMDYzNDc0NTUyOTIz.YbIeVQ.7wab9JOzqhpmc_GxegAzJSfZNY4");
+                await client.LoginAsync(TokenType.Bot, "");
                 await client.StartAsync();
 
                 // Here we initialize the logic required to register our commands.
